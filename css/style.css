@@ -1,0 +1,43 @@
+
+main {
+  background-color: teal;
+  cursor: default;
+}
+main h1 {
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 120px;
+}
+main .garis {
+  margin-top: -25px;
+  text-align: center;
+  color: whitesmoke;
+}
+main h3 {
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 120px;
+  margin: 14px 30px;
+}
+.destinasi-container {
+  margin: 50px 0.5%;
+  display: flex;
+}
+.destinasi {
+  text-align: center;
+  width: 33%;
+  margin-bottom: 40px;
+}
+.destinasi img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid aquamarine;
+}
+.destinasi h4 {
+  text-align: justify;
+  margin: 20px 16px;
+  font-weight: normal;
+  padding: 15px;
+  color: black;
+}
