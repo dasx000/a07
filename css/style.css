@@ -1,4 +1,89 @@
+/* Header */
+header {
+    background-color: rgb(26, 188, 156);
+}
+header a {
+    text-decoration: none;
+}
+header li {
+    list-style: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    color: white;
+    margin: 15px;
+}
+.logo h3 {
+    display: flex;
+}
+.menulist ul {
+    display: flex;
 
+}
+.menulist ul li {
+    margin: 0 5px;
+}
+.menulist ul li a {
+    color: white;
+    padding: 0 10px;
+    display: block;
+    background-color: rgb(26, 188, 156);
+    line-height: 52px;
+}
+.menulist ul li a:hover {
+    background-color: rgb(19, 170, 140);
+}
+
+/*Hamburger menu*/
+.menu-toggle {
+    display: none;
+    margin: 15px;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    padding-right: 15px;
+    position: relative;
+}
+.menu-toggle input {
+    position: absolute;
+    opacity: 0;
+    width: 30px;
+    height: 25px;
+    left: -4px;
+    top: -3px;
+    cursor: pointer;
+    z-index: 2;
+}
+.menu-toggle span {
+    display: block;
+    width: 23px;
+    height: 2px;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+/* Hamburger Menu Animation */
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+.menu-toggle input:checked ~ span:nth-child(2) {
+    transform: rotate(45deg) translate(3px, 3px);
+}
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+.menu-toggle input:checked ~ span:nth-child(4) {
+    transform: rotate(-45deg) translate(-1.5px, 1px);
+}
+.menu-toggle input:checked ~ span:nth-child(3) {
+    transform: scale(0);
+    opacity: 0;
+}
+/* Main */
 main {
   background-color: teal;
   cursor: default;
