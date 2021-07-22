@@ -9,6 +9,7 @@ body {
 /* Header */
 header {
     background-color: rgb(26, 188, 156);
+    width: 100%;
     position: fixed;
     z-index: 10;
 }
