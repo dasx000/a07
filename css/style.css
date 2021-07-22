@@ -1,6 +1,8 @@
 /* Header */
 header {
     background-color: rgb(26, 188, 156);
+    height: 52px;
+    width: 100%;
 }
 header a {
     text-decoration: none;
