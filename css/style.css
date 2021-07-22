@@ -1,9 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
 /* Header */
 header {
     background-color: rgb(26, 188, 156);
-    box-sizing: border-box;
-    height: 52px;
-    width: 100%;
     position: fixed;
     z-index: 10;
 }
@@ -19,10 +24,12 @@ nav {
 }
 .logo {
     color: white;
-    margin: 15px;
+    background-color: rgb(26, 188, 156);
+    padding: 15px;
+    z-index: 10;
 }
 .logo h3 {
-    display: flex;
+    display: flex;    
 }
 .menulist ul {
     display: flex;
@@ -60,7 +67,7 @@ nav {
     left: -4px;
     top: -3px;
     cursor: pointer;
-    z-index: 2;
+    z-index: 10;
 }
 .menu-toggle span {
     display: block;
@@ -69,6 +76,7 @@ nav {
     background-color: white;
     border-radius: 3px;
     transition: all 0.5s;
+    z-index: 9px;
 }
 
 /* Hamburger Menu Animation */
