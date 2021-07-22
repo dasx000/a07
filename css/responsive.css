@@ -1,0 +1,40 @@
+@media (max-width: 1000px) {
+    main h1 {
+        font-size: 26px;
+    }
+    main .garis {
+        margin-top: -22px;
+    }
+    main h3 {
+        font-size: 18px;
+        margin: 8px 26px;
+    }
+    .destinasi {
+        width: 50%;
+    }
+    .destinasi h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 670px) {
+    main h1 {
+        font-size: 24px;
+    }
+    main .garis {
+        margin-top: -20px;
+    }
+    main h3 {
+        font-size: 14px;
+        margin: 8px 22px;
+    }
+    .destinasi-container {
+        display: inline;
+    }
+    .destinasi {
+        width: 100%;
+    }
+    .destinasi h4 {
+        font-size: 14px;
+    }
+}
