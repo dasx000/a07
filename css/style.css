@@ -154,11 +154,13 @@ main h3 {
   border-bottom: 1px solid #eee;
   padding: 20px;
   text-align: center;
-  background: rgb(26, 188, 156)
+  background: rgb(26, 188, 156);
+  width: 100%;
 }
 .contacts h1 {
   color: white;
 }
+
 /* FOOTER */
 
 footer {
