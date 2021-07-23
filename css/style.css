@@ -1,201 +1,219 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 /* Header */
 header {
-    background-color: rgb(26, 188, 156);
-    box-sizing: border-box;
-    width: 100%;
-    position: fixed;
-    z-index: 10;
+  background-color: rgb(26, 188, 156);
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
 }
 header a {
-    text-decoration: none;
+  text-decoration: none;
 }
 header li {
-    list-style: none;
+  list-style: none;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
-    color: white;
-    background-color: rgb(26, 188, 156);
-    padding: 15px;
-    z-index: 10;
+  color: white;
+  background-color: rgb(26, 188, 156);
+  padding: 15px;
+  z-index: 10;
 }
 .logo h3 {
-    display: flex;    
+  display: flex;    
 }
 .menulist ul {
-    display: flex;
+  display: flex;
 
 }
 .menulist ul li {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 .menulist ul li a {
-    color: white;
-    padding: 0 10px;
-    display: block;
-    background-color: rgb(26, 188, 156);
-    line-height: 52px;
+  color: white;
+  padding: 0 10px;
+  display: block;
+  background-color: rgb(26, 188, 156);
+  line-height: 52px;
 }
 .menulist ul li a:hover {
-    background-color: rgb(19, 170, 140);
+  background-color: rgb(19, 170, 140);
 }
 
 /*Hamburger menu*/
 .menu-toggle {
-    display: none;
-    margin: 15px;
-    flex-direction: column;
-    height: 20px;
-    justify-content: space-between;
-    padding-right: 15px;
-    position: relative;
+  display: none;
+  margin: 15px;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  padding-right: 15px;
+  position: relative;
 }
 .menu-toggle input {
-    position: absolute;
-    opacity: 0;
-    width: 30px;
-    height: 25px;
-    left: -4px;
-    top: -3px;
-    cursor: pointer;
-    z-index: 10;
+  position: absolute;
+  opacity: 0;
+  width: 30px;
+  height: 25px;
+  left: -4px;
+  top: -3px;
+  cursor: pointer;
+  z-index: 10;
 }
 .menu-toggle span {
-    display: block;
-    width: 23px;
-    height: 2px;
-    background-color: white;
-    border-radius: 3px;
-    transition: all 0.5s;
-    z-index: 9px;
+  display: block;
+  width: 23px;
+  height: 2px;
+  background-color: white;
+  border-radius: 3px;
+  transition: all 0.5s;
+  z-index: 9px;
 }
 
 /* Hamburger Menu Animation */
 .menu-toggle span:nth-child(2) {
-    transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 .menu-toggle input:checked ~ span:nth-child(2) {
-    transform: rotate(45deg) translate(3px, 3px);
+  transform: rotate(45deg) translate(3px, 3px);
 }
 .menu-toggle span:nth-child(4) {
-    transform-origin: 0 100%;
+  transform-origin: 0 100%;
 }
 .menu-toggle input:checked ~ span:nth-child(4) {
-    transform: rotate(-45deg) translate(-1.5px, 1px);
+  transform: rotate(-45deg) translate(-1.5px, 1px);
 }
 .menu-toggle input:checked ~ span:nth-child(3) {
-    transform: scale(0);
-    opacity: 0;
+  transform: scale(0);
+  opacity: 0;
 }
 /* Main */
 main {
-  background-color: teal;
-  cursor: default;
+background-color: teal;
+cursor: default;
 }
 main h1 {
-  text-align: center;
-  color: whitesmoke;
-  padding-top: 120px;
+text-align: center;
+color: whitesmoke;
+padding-top: 120px;
 }
 main .garis {
-  margin-top: 5px;
-  text-align: center;
-  color: whitesmoke;
+margin-top: 5px;
+text-align: center;
+color: whitesmoke;
 }
 main h3 {
-  color: whitesmoke;
-  text-align: center;
-  padding-bottom: 120px;
-  margin: 14px 30px;
+color: whitesmoke;
+text-align: center;
+padding-bottom: 88px;
+margin: 14px 64px;
 }
 .destinasi-container {
-  margin: 50px 0.5%;
-  display: flex;
+margin: 50px 0.5%;
+text-align: center;
+height: 1180px;
 }
 .destinasi {
-  text-align: center;
-  width: 33%;
-  margin-bottom: 40px;
+width: 33%;
+float: left;
+margin: 20px auto;
+height: 630px;
 }
-.destinasi img {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+.destinasi-4, .destinasi-5 {
+  margin-left: 10%;
+}
+.destinasi-icon img {
+position: relative;
+width: 300px;
+height: 300px;
+border-radius: 50%;
 }
 .destinasi img:hover {
-  border: 5px solid aquamarine;
-  width: 290px;
-  height: 290px;
+border: 5px solid aquamarine;
+width: 290px;
+height: 290px;
 }
 .destinasi img:active {
-  border: 0px;
-  width: 300px;
-  height: 300px;
+border: 0px;
+width: 300px;
+height: 300px;
 }
-.destinasi h4 {
-  text-align: justify;
-  margin: 20px 16px;
-  font-weight: normal;
-  padding: 15px;
-  color: black;
+.destinasi p {
+text-align: justify;
+color: black;
+position: absolute;
+width: 28%;
+margin-top: 20px;
+margin-left: 2.5%;
 }
 
 
 
 /* CONTACTS */
 .contacts {
-  border-bottom: 1px solid #eee;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  background: rgb(26, 188, 156);
-  width: 100%;
+border-bottom: 1px solid #eee;
+padding-bottom: 20px;
+text-align: center;
+background: teal;
+width: 100%;
+margin-bottom: 50px;
 }
 .contacts h1 {
-  color: white;
+color: white;
 }
 
 /* FOOTER */
 
 footer {
-  width: 100%;
-  bottom: 0;
-  background: rgb(26, 188, 156);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  color: #fff;
-  padding-top: 20px;
-  padding-bottom: 20px;
+width: 100%;
+bottom: 0;
+background: rgb(26, 188, 156);
+display: flex;
+align-items: center;
+flex-direction: column;
+text-align: center;
+color: #fff;
+padding-top: 20px;
+padding-bottom: 20px;
+position: fixed;
+bottom: 0px;
 }
 
 
 .social-media {
-  margin: 20px auto;
+margin: 20px auto;
 }
 .social-media i {
-  padding: 20px;
-  font-size: 25px;
-  color: #fff;
+padding: 20px;
+font-size: 25px;
+color: #fff;
 }
 .social-media i:hover{
-  color: rgb(107, 250, 202);
+color: rgb(107, 250, 202);
 }
 
 .copy-footer {
-  /* padding: 20px; */
-  width: 100%;
-  display: inline-block;
+/* padding: 20px; */
+width: 100%;
+display: inline-block
 }
 
 
 
 /* END footer */
+
+/* Tambahan */
+.gap {  
+  height: 50px;
+  background-color: teal;
+}
+.body .gap {
+  margin-top: -14px;
+}
