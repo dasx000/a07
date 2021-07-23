@@ -35,6 +35,7 @@ nav {
 }
 .menulist ul li {
   margin: 0 5px;
+  margin-top: 3px;
 }
 .menulist ul li a {
   color: white;
