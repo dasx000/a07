@@ -69,6 +69,7 @@ i{
 @media screen and (min-width: 768px) {
     .container{
         max-width: 608px;
+        margin: 0 auto;
     }
     .data{
         display: grid;
@@ -79,6 +80,8 @@ i{
 @media screen and (min-width: 1280px) {
     .container{
         max-width: 1156px;
+        margin: 0 auto;
+        padding-bottom: 20px; 
     }
     .biodata{
         display: flex;
