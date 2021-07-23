@@ -89,6 +89,10 @@ i{
         width: 70%;
         margin-left: 15%;
     }
+    .created {
+        font-size: 26px;
+        margin-top: 70px;
+    }
 }
 
 @media (max-width: 670px) {
@@ -98,5 +102,9 @@ i{
     .data {
         width: 85%;
         margin-left: 7.5%;
+    }
+    .created {
+        margin-top: 40px;
+        font-size: 20px;
     }
 }
