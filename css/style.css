@@ -152,7 +152,8 @@ main h3 {
 /* CONTACTS */
 .contacts {
   border-bottom: 1px solid #eee;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   background: rgb(26, 188, 156);
   width: 100%;
@@ -172,7 +173,8 @@ footer {
   flex-direction: column;
   text-align: center;
   color: #fff;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -189,16 +191,10 @@ footer {
 }
 
 .copy-footer {
-  padding: 20px;
-  max-width: 1170px;
+  /* padding: 20px; */
+  width: 100%;
   display: inline-block
 }
-.container-footer {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 
 .body {
   width: 100%;
