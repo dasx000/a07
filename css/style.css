@@ -1,11 +1,11 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 /* Header */
 header {
     background-color: rgb(26, 188, 156);
+    box-sizing: border-box;
     width: 100%;
     position: fixed;
     z-index: 10;
@@ -105,7 +105,7 @@ main h1 {
   padding-top: 120px;
 }
 main .garis {
-  margin-top: -25px;
+  margin-top: 5px;
   text-align: center;
   color: whitesmoke;
 }
