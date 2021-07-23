@@ -1,68 +1,86 @@
 @media (max-width: 1000px) {
-/*   Header   */
-    header {
-        width: 100%;
+    /*   Header   */
+        header {
+            width: 100%;
+        }
+    /*   Main   */
+        main h1 {
+            font-size: 26px;
+        }
+        main .garis {
+            margin-top: 5px;
+        }
+        main h3 {
+            font-size: 18px;
+            margin: 8px 26px;
+        }
+        .destinasi-container {
+            height: 1760px;
+        }
+        .destinasi {
+            width: 50%;
+            height: 570px;
+        }
+        .destinasi-4 {
+            margin-left: 0;
+            height: 590px;
+        }
+        .destinasi-5 {
+            margin-left: 25%;
+        }
+        .destinasi-icon {
+            text-align: center;
+            width: 100%;
+        }
+        .destinasi p {
+            font-size: 16px;
+            width: 40%;
+            margin-top: 20px;
+            margin-left: 5%;
+        }
+    
+        /* footer */
+    
+        .social-media i {
+            padding: 10px;
+        }
     }
-/*   Main   */
-    main h1 {
-        font-size: 26px;
-    }
-    main .garis {
-        margin-top: 5px;
-    }
-    main h3 {
-        font-size: 18px;
-        margin: 8px 26px;
-    }
-    .destinasi {
-        width: 50%;
-    }
-    .destinasi h4 {
-        font-size: 16px;
-    }
-
-    /* footer */
-
-    .social-media i {
-        padding: 10px;
-    }
-}
-
-@media (max-width: 670px) {
-/*   Header   */
-    header {
-        width: 100%;
-        z-index: 10;
-    }
-    .menu-toggle {
-        display: flex;
-        z-index: 9;
-    }
-    .menulist ul {
-        position: absolute;
-        right: 0px;
-        top: 51px;        
-        flex-direction: column;
-        width: 100%;
-        justify-content: space-evenly;
-        align-items: left;
-        background-color: rgb(26, 188, 156);
-        z-index: 8;
-        transform: translateY(-150%);
-        transition: all 1s;
-    }
-    .menulist ul li a:hover {
-        background-color: rgb(19, 170, 140);
-    }
-    .menulist ul li {
-        margin: 0;
-    }
-    .menulist ul li a {
-        padding-left: 15px;
-    }
-    nav ul.slide {
-        transform: translateY(0);
-    }
+    
+    @media (max-width: 670px) {
+    /*   Header   */
+        header {
+            width: 100%;
+            z-index: 10;
+        }
+        .menu-toggle {
+            display: flex;
+            z-index: 9;
+        }
+        .menulist ul {
+            position: absolute;
+            right: 0px;
+            top: 51px;        
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: left;
+            background-color: rgb(26, 188, 156);
+            z-index: 8;
+            transform: translateY(-150%);
+            transition: all 1s;
+        }
+        .menulist ul li a:hover {
+            background-color: rgb(19, 170, 140);
+        }
+        .menulist ul li {
+            margin: 0;
+        }
+        .menulist ul li a {
+            padding-left: 15px;
+        }
+        nav ul.slide {
+            transform: translateY(0);
+        }
 /*   Main   */
     main h1 {
         font-size: 24px;
@@ -75,17 +93,23 @@
         margin: 8px 22px;
     }
     .destinasi-container {
-        display: inline;
+        height: 2310px;
     }
     .destinasi {
         width: 100%;
     }
-    .destinasi h4 {
+    .destinasi-1 {height: 430px;}
+    .destinasi-2 {height: 370px;}
+    .destinasi-3 {height: 450px;}
+    .destinasi-4 {height: 420px;}
+    .destinasi-5 {margin: 0;}
+    .destinasi p {
         font-size: 14px;
+        width: 88.5%;
     }
-
+    
     /* footer */
-
+    
     .social-media i {
        font-size: 15px;
     }
