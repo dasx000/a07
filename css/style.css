@@ -146,3 +146,58 @@ main h3 {
   padding: 15px;
   color: black;
 }
+
+
+
+/* CONTACTS */
+.contacts {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  background: rgb(26, 188, 156)
+}
+.contacts h1 {
+  color: white;
+}
+/* FOOTER */
+
+footer {
+  width: 100%;
+  bottom: 0;
+  background: rgb(26, 188, 156);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+
+.social-media {
+  margin: 20px auto;
+}
+.social-media i {
+  padding: 20px;
+  font-size: 25px;
+  color: #fff;
+}
+.social-media i:hover{
+  color: rgb(2,255,171);
+}
+
+.copy-footer {
+  padding: 20px;
+  max-width: 1170px;
+  display: inline-block
+}
+.container-footer {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+
+/* END footer */
